@@ -1,0 +1,26 @@
+@media (max-width: 1120px) {
+  .menu {
+    display: none;
+  }
+  .btn-burger {
+    display: block;
+    position: fixed;
+    z-index: 9;
+    left: 50px;
+  }
+
+  .open .menu {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    font-size: 34px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.3s;
+    background: red;
+    padding: 50px;
+  }
+}

@@ -1,0 +1,281 @@
+@import url(/css/reset.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Condensed&display=swap");
+
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+
+
+*/
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #151515;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 20px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main1 {
+  background: url(/photos/mainphoto.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  min-height: 873.67px;
+}
+
+.btn_down {
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+.menu a {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+.btn-burger {
+  display: none;
+}
+
+.content_m1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.clouds {
+  transform: translate(-280px, 50px);
+}
+
+.cloud1 {
+  padding: 3px 24px;
+  border-radius: 13px;
+  background: #fff;
+  color: #454545;
+  text-align: center;
+  font-size: 37px;
+  text-transform: uppercase;
+}
+
+.cloud2 {
+  padding: 3px 24px;
+  border-radius: 13px;
+  background: #fff;
+  color: #454545;
+  text-align: center;
+  font-size: 37px;
+  text-transform: uppercase;
+  transform: rotate(-5.13deg) translate(20px, -18px);
+}
+
+.text1 h2 {
+  font-size: 53px;
+  color: #fff;
+}
+.text2 h1 {
+  font-size: 160px;
+  color: #fff;
+}
+
+.text3 p {
+  font-size: 28px;
+  color: #fff;
+}
+
+.btns_m1 {
+  display: flex;
+  align-items: center;
+
+  column-gap: 19px;
+}
+
+.btn1 a {
+  font-size: 15px;
+  color: #454545;
+  text-transform: uppercase;
+  padding: 12px 49px;
+  border-radius: 6px;
+  background: #00ff85;
+}
+.btn2 a {
+  font-size: 15px;
+  color: #454545;
+  text-transform: uppercase;
+  padding: 12px 38px;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.pattern {
+  transform: translateY(50px);
+}
+
+.main2 {
+  padding: 54px 0px;
+  min-height: 856px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content_m2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  column-gap: 40px;
+  color: #fff;
+}
+
+.img_m2 img {
+  width: 100%;
+}
+
+.texts_m2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 34px;
+  width: 856px;
+}
+
+.maintext_m2 {
+  font-size: 48px;
+}
+
+.main3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.content_m3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.text_cont {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  column-gap: 200px;
+}
+
+.content_text h1 {
+  font-size: 50px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+}
+
+.map {
+  width: 500px;
+  height: 500px;
+  background: #333;
+  filter: grayscale(1);
+  transition: 0.4s;
+}
+
+.map:hover {
+  filter: grayscale(0);
+}
+
+.main4 {
+  background: url(/photos/main4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 873.67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.btn a {
+  text-transform: uppercase;
+  font-size: 25px;
+  background: #00ff85;
+  color: #454545;
+  padding: 15px 50px;
+  border-radius: 15px;
+  display: none;
+}
+
+.main4:hover .btn a {
+  display: block;
+}
+
+.footer {
+  height: 328px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #1d1d1d;
+}
+.content_high {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 146px 52px 0px;
+}
+
+.pattern_f {
+  position: absolute;
+  width: 80%;
+  left: 15%;
+  top: -10%;
+}
+
+.content_down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_down p {
+  font-size: 14px;
+  color: #fff;
+  margin-top: 20px;
+}
